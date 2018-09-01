@@ -20,7 +20,7 @@ This shows the current status of JackBot
 ### [Bots for Discord](https://botsfordiscord.com)
 <p><a href="https://botsfordiscord.com/bot/437439973751521280"><img src="https://botsfordiscord.com/api/v1/bots/437439973751521280/embed?theme=dark" alt="" /></a></p>
 
-### [JackBot Services]
+### [JackBot Services](https://jackbot.statusy.co)
 Click above to view the full statuspage.
 
 ## Links
