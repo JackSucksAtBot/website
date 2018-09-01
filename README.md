@@ -1,8 +1,8 @@
 <p align="center"><img src="https://i.imgur.com/iAMBKjV.png" width="219" height="219" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Bot Version](https://img.shields.io/badge/bot%20version-v2.3.0-blue.svg)
-![Bot Owner](https://img.shields.io/badge/botowner-Cairo%235772-yellow.svg)
+![Bot Version](https://img.shields.io/badge/bot%20version-v3.0.0-blue.svg)
+![Bot Owner](https://img.shields.io/badge/botowner-Cairo%234883-yellow.svg)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-AGPL%203.0-red.svg)](https://github.com/Cairo2k18/jackbot/blob/master/LICENSE)</p>
@@ -23,7 +23,7 @@ This shows the current status of JackBot
 Click above to view the full statuspage.
 
 ## Links
-* [Official Website](https://jackbot.js.org)
-* [Documentation](https://jackbot.js.org/docs)
+* [Official Website](https://cairo2k18.xyz/jackbot)
+* [Documentation](https://cairo2k18.xyz/jackbot/docs)
 * [JackBot Support](https://discord.gg/AWEvbyb)
 * [Invite JackBot](https://discordapp.com/oauth2/authorize?client_id=437439973751521280&scope=bot&permissions=8)
