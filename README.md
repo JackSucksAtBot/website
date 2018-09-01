@@ -3,10 +3,10 @@
 <h1 align="center">JackBot's Website</h1>
 <p align="center">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Website Owner](https://img.shields.io/badge/website%20owner-Cairo%234883-yellow.svg)
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
-![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
-[![License](https://img.shields.io/badge/license-GPL%203.0-red.svg)](https://github.com/Cairo2k18/jackbot/blob/master/LICENSE)</p>
+<img src="https://img.shields.io/badge/website%20owner-Cairo%234883-yellow.svg" />
+<img src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg" />
+<img src="https://img.shields.io/badge/contributions-welcome-orange.svg" />
+<img src="https://img.shields.io/badge/license-GPL%203.0-red.svg" /></p>
 
 
 ## About JackBot
