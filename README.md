@@ -1,37 +1,29 @@
-# <i class="twa twa-wave"></i> Welcome to the JackBot Website
+<p align="center"><img src="https://i.imgur.com/iAMBKjV.png" width="219" height="219" />
 
-### <i class="twa twa-question"></i> About
-JackBot is a Discord Bot full of memes, quotes and many other things that are about or relevant to the YouTuber JackSucksAtLife. The original version of this bot was created on the **22/04/2018** by **Cairo#4883**, But version 3.0.0 was created on the **19/09/2018**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Bot Version](https://img.shields.io/badge/bot%20version-v2.3.0-blue.svg)
+![Bot Owner](https://img.shields.io/badge/botowner-Cairo%235772-yellow.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![License](https://img.shields.io/badge/license-AGPL%203.0-red.svg)](https://github.com/Cairo2k18/jackbot/blob/master/LICENSE)</p>
 
-### <i class="twa twa-dvd"></i> Live Status
-<img src="https://discordbots.org/api/widget/status/437439973751521280.svg"><br />
-You can look at JackBot's full status by going <a href="https://cairo2k18.xyz/jackbot/status">here</a>.
+## About JackBot
+JackBot is a Discord Bot full of memes, quotes and many other things that are about or relevant to the YouTuber JackSucksAtLife. The original version of this bot was created on the **22/04/2018** by **Cairo#5772**
 
-### <i class="twa twa-link"></i> Links
-* <a href="#" id="target">Invite</a>
-* <a href="https://jackbot.statusy.co">Service Status</a>
-* <a href="https://github.com/cairo2k18/jackbot">GitHub</a>
-* <a href="https://trello.com/b/vK3U4Qfy">Trello</a>
+## Live Status
+This shows the current status of JackBot
 
-### <i class="twa twa-telephone"></i> Support Server
-<iframe src="https://discordapp.com/widget?id=437423842244165633&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0"></iframe>
+### [Discord Bots](https://discordbots.org)
+<p><a href="https://discordbots.org/bot/437439973751521280"><img src="https://discordbots.org/api/widget/437439973751521280.svg?usernamecolor=FFFFFF&amp;topcolor=2C2F33" alt="Jackbot-discordbots-embed" /></a></p>
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="JackBot">
-<meta property="og:description" content="This is the official website and documentation for JackBot. JackBot is a Discord Bot full of memes, quotes and many other things that are about or relevant to the YouTuber JackSucksAtLife.">
-<meta name="og:image" content="https://raw.githubusercontent.com/Cairo2k18/jackbot/master/docs/logo2.jpg">
-<meta name="theme-color" content="#FF1919">
+### [Bots for Discord](https://botsfordiscord.com)
+<p><a href="https://botsfordiscord.com/bot/437439973751521280"><img src="https://botsfordiscord.com/api/v1/bots/437439973751521280/embed?theme=dark" alt="" /></a></p>
 
-<!-- Start of cairo2k18 Zendesk Widget script -->
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=8ad98b68-aea3-4966-9c13-957abf876f45"> </script>
-<!-- End of cairo2k18 Zendesk Widget script -->
+### [JackBot Services]
+Click above to view the full statuspage.
 
-<script>
-    (function() {
-
-  document.getElementById("target").onclick = function() {
-    var wnd = window.open('https://discordapp.com/oauth2/authorize?client_id=437439973751521280&permissions=314440&scope=bot', 'JackBot Invite', 'width=470,height=640');
-  };
-
-})();
-</script>
+## Links
+* [Official Website](https://jackbot.js.org)
+* [Documentation](https://jackbot.js.org/docs)
+* [JackBot Support](https://discord.gg/AWEvbyb)
+* [Invite JackBot](https://discordapp.com/oauth2/authorize?client_id=437439973751521280&scope=bot&permissions=8)
