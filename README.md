@@ -9,7 +9,7 @@
 
 
 ## About JackBot
-JackBot is a Discord Bot full of memes, quotes and many other things that are about or relevant to the YouTuber JackSucksAtLife. The original version of this bot was created on the **22/04/2018** by **Cairo#5772**
+JackBot is a Discord Bot full of memes, quotes and many other things that are about or relevant to the YouTuber JackSucksAtLife. The original version of this bot was created on the **22/04/2018** by **Cairo#4883**
 
 ## Live Status
 This shows the current status of JackBot
