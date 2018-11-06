@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+
+        <title>JackBot - Commands</title>
+
+        <!-- Metadata -->
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Language" content="en">
+        <meta name="google-site-verification" content="LRQtsW2RVl1VOr89n7JL-QJEiacRXYayu1IvK44GrEc" />
+        <meta name="msvalidate.01" content="0587E70E4E93FCB1A6F459E6CCEA5BF4" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#EF5350">
+
+        <meta data-react-helmet="true" name="description" content="This is the official JackBot Website, JackBot is a Discord bot based off of JackSucksAtLife."/>
+        <meta name="keywords" content="Discord, Discord.JS, Node.JS, Website, Official, DiscordApp, Bots for Discord, BFD, JackBot, JackSucksAtBot, JackSucksAtLife, JSAL, JackSucks, JackSucks@Life, SucksAtLife, Sucks@Life, Jack">
+
+        <meta itemprop="name" content="JackBot - Commands">
+        <meta itemprop="description" content="This is the official JackBot Website, JackBot is a Discord bot based off of JackSucksAtLife.">
+        <meta itemprop="image" content="./assets/img/cairoprofile.png"> 
+
+        <!--Twitter Metadata-->
+
+        <meta name="twitter:card" content="website">
+        <meta name="twitter:site" content="JackBot Official">
+        <meta name="twitter:title" content="Commands">
+        <meta name="twitter:description" content="This is the official JackBot Website, JackBot is a Discord bot based off of JackSucksAtLife.">
+        <meta name="twitter:creator" content="@CairoNZ">
+        <meta name="twitter:image" content="./assets/img/jackbotlogo.png">
+        <meta name="twitter:data2" content="Red">
+        <meta name="twitter:label2" content="Color">
+
+        <!--Opengraph Metadata-->
+
+        <meta property="og:locale" content="en-US" />  
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://cairo2k18.xyz/jackbot" />
+        <meta property="og:image" content="https://discordapp.com//assets/be51c36330395e516da99777086142f1.png">
+        <meta property="og:site_name" content="Commands" />
+        <meta data-react-helmet="true" property="og:title" content="JackBot Official">
+        <meta data-react-helmet="true" property="og:image" content="./assets/img/cairoprofile.png"/>
+        <meta property="og:keywords" content="Discord,Cairo,JavaScript,Developer,Cairo2k18,2k18,Discord.JS,Node.JS,Website,Official,DiscordApp,Bots for Discord,BFD,Discord Bots,DBL,Discord Bots List,Website,Project,Home,Cairo's,JackBot,JackSucksAtBot,JackSucksAtLife,JSAL,JackSucks,JackSucks@Life,SucksAtLife,Sucks@Life,Jack" />
+        <meta data-react-helmet="true" property="og:description" content="This is the official JackBot Website, JackBot is a Discord bot based off of JackSucksAtLife."/>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NG6KLWM');</script>
+        <!-- End Google Tag Manager -->
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126212781-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-126212781-1');
+        ga('require', 'GTM-KVDF8KS');
+        </script>
+        <!-- End Google Analytics-->
+        <!-- Google Adsense -->
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-2504501729034489",
+            enable_page_level_ads: true
+        });
+        </script>
+        <!-- End Google Adsense -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krub|Raleway|Ubuntu">
+        <link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css" media="screen,projection"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/twemoji-awesome.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/extra.css">
+    </head>
+    <body class="dark-theme">
+      <main>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NG6KLWM"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <nav>
+            <div class="nav-wrapper red lighten-1">
+                    <a href="https://cairo2k18.xyz/jackbot" class="brand-logo center">JackBot</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-dow">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a id="jbstatus">Status</a></li>
+                    <li class="active"><a href="commands.html">Commands</a></li>
+                    <li><a href="updatelogs.html">Updatelogs</a></li></ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-dow">
+                    <li><a id="jbinvite" title="Invite JackBot to your guild."><i class="material-icons">add_circle</i></a></li>
+                    <li><a onclick="M.toast({html: 'Webpanel Coming Soon.'})"><i class="material-icons">settings</i></a></li>
+                    <li><a onclick="M.toast({html: 'Account Management Coming Soon.'})"><i class="material-icons">account_circle</i></a></li>
+                </div>
+        </nav>
+        <div class="container">
+            
+  <ul class="collapsible popout">
+      <li>
+          <div class="collapsible-header red lighten-1"><i class="twa twa-house"></i> Help Commands</div>
+          <div class="collapsible-body">
+              
+      <table class="highlight">
+        <p><strong>Please note that the default prefix is <code>jb!</code> therefore we have included this is the usage, please replace this prefix with your server's prefix if you have changed the bot's prefix.</strong></p>
+            <thead>
+              <tr>
+                  <th>Command</th>
+                  <th>Usage</th>
+                  <th>Aliases</th>
+                  <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Help</td>
+                <td><code>jb!help</code></td>
+                <td><a class="btn disabled">Not Available</a></td>
+                <td>Displays the help screens main menu.</td>
+              </tr>
+              <tr>
+                <td>System</td>
+                <td><code>jb!system</code></td>
+                <td><a class="btn disabled">Not Available</a></td>
+                <td>Displays all of the system commands.</td>
+              </tr>
+              <tr>
+                <td>Memes</td>
+                <td><code>jb!memes</code></td>
+                <td><a class="btn disabled">Not Available</a></td>
+                <td>Displays all of the memey commands.</td>
+              </tr>
+              <tr>
+                <td>Video Memes</td>
+                <td><code>jb!videomemes</code></td>
+                <td><a class="btn disabled">Not Available</a></td>
+                <td>Displays all of the video meme commands.</td>
+              </tr>
+              <tr>
+                <td>Utilities</td>
+                <td><code>jb!utilities</code></td>
+                <td><a class="btn disabled">Not Available</a></td>
+                <td>Displays all of the utility commands.</td>
+              </tr>
+              <tr>
+                <td>ATE</td>
+                <td><code>jb!ate</code></td>
+                <td><a class="btn disabled">Not Available</a></td>
+                <td>Displays all of the active testing enviroment commands.</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </li>
+        <li>
+            <div class="collapsible-header red lighten-1"><i class="twa twa-gear"></i> System Commands</div>
+            <div class="collapsible-body">
+                
+        <table class="highlight">
+          <p><strong>Please note that the default prefix is <code>jb!</code> therefore we have included this is the usage, please replace this prefix with your server's prefix if you have changed the bot's prefix.</strong></p>
+              <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Usage</th>
+                    <th>Aliases</th>
+                    <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Information</td>
+                  <td><code>jb!info</code></td>
+                  <td><a class="dropdown-trigger btn red lighten-1" data-target="infocmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                  <td>Gives you information on the bot's uptime, version etc.</td>
+                </tr>
+                <tr>
+                  <td>Ping</td>
+                  <td><code>jb!ping</code></td>
+                  <td><a class="btn disabled">Not Available</a></td>
+                  <td>This response was decently quick, right?</td>
+                </tr>
+                <tr>
+                  <td>About</td>
+                  <td><code>jb!about</code></td>
+                  <td><a class="btn disabled">Not Available</a></td>
+                  <td>Gives you information about the JackBot, the Developer and JackSucksAtLife.</td>
+                </tr>
+                <tr>
+                  <td>Links</td>
+                  <td><code>jb!links</code></td>
+                  <td><a class="dropdown-trigger btn red lighten-1" data-target="linkscmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                  <td>Provides links to the Website, Support Server and Bot Invite.</td>
+                </tr>
+                <tr>
+                  <td>Updatelogs</td>
+                  <td><code>jb!updatelogs</code></td>
+                  <td><a class="dropdown-trigger btn red lighten-1" data-target="updatelogscmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                  <td>Links you to the updatelogs.</td>
+                </tr>
+                <tr>
+                  <td>Bugs</td>
+                  <td><code>jb!bugs</code></td>
+                  <td><a class="dropdown-trigger btn red lighten-1" data-target="bugscmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                  <td>Provides the link to report a bug.</td>
+                </tr>
+                <tr>
+                  <td>GitHub</td>
+                  <td><code>jb!github</code></td>
+                  <td><a class="btn disabled">Not Available</a></td>
+                  <td>Provides the link to the bot's github.</td>
+                </tr>
+                <tr>
+                  <td>Trello</td>
+                  <td><code>jb!trello</code></td>
+                  <td><a class="btn disabled">Not Available</a></td>
+                  <td>Provides the link to the bot's trello.</td>
+                </tr>
+                <tr>
+                  <td>Donate</td>
+                  <td><code>jb!donate</code></td>
+                  <td><a class="btn disabled">Not Available</a></td>
+                  <td>Provides the link to donate.</td>
+                </tr>
+                <tr>
+                  <td>Partners</td>
+                  <td><code>jb!partners</code></td>
+                  <td><a class="dropdown-trigger btn red lighten-1" data-target="partnerscmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                  <td>Sends a list of partners.</td>
+                </tr>
+                <tr>
+                  <td><span title="This command is restricted to users with the MANAGE_SERVER permission."><i class="twa twa-lock"></i> <span style="text-decoration: underline;">Prefix</span></span></td>
+                  <td><code>jb!prefix</code></td>
+                  <td><a class="btn disabled">Not Available</a></td>
+                  <td>Allows you to change the prefix for your server.</td>
+                </tr>
+              </tbody>
+              </table>
+              </div>
+          </li>
+          <li>
+              <div class="collapsible-header red lighten-1"><i class="twa twa-camera-with-flash"></i> Memey Commands</div>
+              <div class="collapsible-body">
+                  
+          <table class="highlight">
+            <p><strong>Please note that the default prefix is <code>jb!</code> therefore we have included this is the usage, please replace this prefix with your server's prefix if you have changed the bot's prefix.</strong></p>
+                <thead>
+                  <tr>
+                      <th>Command</th>
+                      <th>Usage</th>
+                      <th>Aliases</th>
+                      <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Dead</td>
+                    <td><code>jb!dead</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>The baby wipes flavour from the beanboozled challenge is disgusting..</td>
+                  </tr>
+                  <tr>
+                    <td>Vomit</td>
+                    <td><code>jb!vomit</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>The beanboozled flavour vomit is great!</td>
+                  </tr>
+                  <tr>
+                    <td>Immature</td>
+                    <td><code>jb!immature</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Just me being immature as usual.</td>
+                  </tr>
+                  <tr>
+                    <td>Manslaughter</td>
+                    <td><code>jb!manslaughter</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>I always kill pets on accident - it's not my fault.</td>
+                  </tr>
+                  <tr>
+                    <td>Retard</td>
+                    <td><code>jb!retard</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>I had a massive brain fart here.</td>
+                  </tr>
+                  <tr>
+                    <td>Stick to the Format</td>
+                    <td><code>jb!sticktotheformat</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>*insert clap here*</td>
+                  </tr>
+                  <tr>
+                    <td>GTFO</td>
+                    <td><code>jb!gtfo</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>I said GET OUT!</td>
+                  </tr>
+                  <tr>
+                    <td>Junk</td>
+                    <td><code>jb!junk</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>I really like the tesco clubcard collection you got there.</td>
+                  </tr>
+                  <tr>
+                    <td>Dump</td>
+                    <td><code>jb!dump</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>My room is a mess now, ugh.</td>
+                  </tr>
+                  <tr>
+                    <td>Cleaver</td>
+                    <td><code>jb!cleaver</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>It's normal to have a cleaver in your clothes, right?</td>
+                  </tr>
+                  <tr>
+                    <td>Kazoo Drop</td>
+                    <td><code>jb!kazoodrop</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>His behaviour was disgusting.</td>
+                  </tr>
+                  <tr>
+                    <td>SMH</td>
+                    <td><code>jb!smh</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Jesus christ...</td>
+                  </tr>
+                  <tr>
+                    <td>Crotch</td>
+                    <td><code>jb!crotch</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Hehehehhe - I'm just looking down.</td>
+                  </tr>
+                  <tr>
+                    <td>Murderer</td>
+                    <td><code>jb!murderer</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>DIE YOU WORTHLESS ****</td>
+                  </tr>
+                  <tr>
+                    <td>Psychopath</td>
+                    <td><code>jb!psychopath</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Hehehehehe.</td>
+                  </tr>
+                  <tr>
+                    <td>Weird</td>
+                    <td><code>jb!weird</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Just being a bit weird as usual.</td>
+                  </tr>
+                  <tr>
+                    <td>Alien</td>
+                    <td><code>jb!alien</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>I have come to invade planet earth.</td>
+                  </tr>
+                  <tr>
+                    <td>Shocked</td>
+                    <td><code>jb!shocked</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>OML!!!</td>
+                  </tr>
+                  <tr>
+                    <td>Uhh</td>
+                    <td><code>jb!uhh</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Woops..</td>
+                  </tr>
+                  <tr>
+                    <td>Wtf</td>
+                    <td><code>jb!wtf</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Let me reconsider some life choices.</td>
+                  </tr>
+                  <tr>
+                    <td>Singing</td>
+                    <td><code>jb!singing</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Baby, baby, baby ooh.</td>
+                  </tr>
+                  <tr>
+                    <td>Suited</td>
+                    <td><code>jb!suited</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Brother and sister moment, beautiful.</td>
+                  </tr>
+                  <tr>
+                    <td>Please</td>
+                    <td><code>jb!please</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Get some help.</td>
+                  </tr>
+                  <tr>
+                    <td>Idiot</td>
+                    <td><code>jb!idiot</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>*insert facepalm here*</td>
+                  </tr>
+                  <tr>
+                    <td>Angry</td>
+                    <td><code>jb!angry</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>B!tch f*** off.</td>
+                  </tr>
+                  <tr>
+                    <td>Angelic</td>
+                    <td><code>jb!angelic</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Hallelujah!</td>
+                  </tr>
+                  <tr>
+                    <td>Kazoo Holder</td>
+                    <td><code>jb!kazooholder</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>It's built in!</td>
+                  </tr>
+                  <tr>
+                    <td>Flamin</td>
+                    <td><code>jb!flamin</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Damn it's hot.</td>
+                  </tr>
+                  <tr>
+                    <td>Satan</td>
+                    <td><code>jb!satan</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>*demonic voice activated*</td>
+                  </tr>
+                  <tr>
+                    <td>Thinking</td>
+                    <td><code>jb!thinking</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Hmmm.</td>
+                  </tr>
+                  <tr>
+                    <td>Swirl</td>
+                    <td><code>jb!swirl</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>sWirLY.</td>
+                  </tr>
+                  <tr>
+                    <td>Overnight</td>
+                    <td><code>jb!overnight</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Overnight challenge anyone?</td>
+                  </tr>
+                  <tr>
+                    <td>Kazoo</td>
+                    <td><code>jb!kazoo</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>The kazoo possesses you.</td>
+                  </tr>
+                  <tr>
+                    <td>Explosion</td>
+                    <td><code>jb!explosion</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>BOOM.</td>
+                  </tr>
+                  <tr>
+                    <td>Derp</td>
+                    <td><code>jb!derp</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>*insert drool emoji here*</td>
+                  </tr>
+                  <tr>
+                    <td>Twitter Llama</td>
+                    <td><code>jb!twitterllama</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>It's official, the grave.</td>
+                  </tr>
+                  <tr>
+                    <td>Monster</td>
+                    <td><code>jb!monster</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>IM A MONSTER!</td>
+                  </tr>
+                  <tr>
+                    <td>Duet</td>
+                    <td><code>jb!duet</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Oooowoahah.</td>
+                  </tr>
+                  <tr>
+                    <td>Broke</td>
+                    <td><code>jb!broke</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>I'm soo poor ;-;</td>
+                  </tr>
+                  <tr>
+                    <td>Paid Promotion</td>
+                    <td><code>jb!paidpromotion</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Oh no.. not jack too.</td>
+                  </tr>
+                  <tr>
+                    <td>Nose</td>
+                    <td><code>jb!nose</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td> My nose on a [spoiler].</td>
+                  </tr>
+                  <tr>
+                    <td>Bloody Hell</td>
+                    <td><code>jb!bloodyhell</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Oh bloody hell.</td>
+                  </tr>
+                  <tr>
+                    <td>DJ Jack</td>
+                    <td><code>jb!djjack</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Yes bois dj jack in tha houseee.</td>
+                  </tr>
+                  <tr>
+                    <td>LSD</td>
+                    <td><code>jb!lsd</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>Hacking on hypixel at it's finest.</td>
+                  </tr>
+                  <tr>
+                    <td>University</td>
+                    <td><code>jb!university</code></td>
+                    <td><a class="btn disabled">Not Available</a></td>
+                    <td>*skips university to play minecraft* my parents won't care.</td>
+                  </tr>
+                </tbody>
+                </table>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header red lighten-1"><i class="twa twa-video-camera"></i> Video Meme Commands</div>
+                <div class="collapsible-body">
+                    
+            <table class="highlight">
+              <p><strong>Please note that the default prefix is <code>jb!</code> therefore we have included this is the usage, please replace this prefix with your server's prefix if you have changed the bot's prefix, additionally please also note you must have voted for JackBot <a href="https://discordbots.org/bot/437439973751521280/vote">here</a> or have donated to JackBot <a href="https://donatebot.io/checkout/437423842244165633">here</a> to have access to these commands.</strong></p>
+                  <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Usage</th>
+                        <th>Aliases</th>
+                        <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span title="You must vote or donate to JackBot to be able to use this command."><i class="twa twa-star2"></i> <span style="text-decoration: underline;">Spin</span></span></td>
+                      <td><code>jb!spin</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>You spin me right round..</td>
+                    </tr>
+                    <tr>
+                      <td><span title="You must vote or donate to JackBot to be able to use this command."><i class="twa twa-star2"></i> <span style="text-decoration: underline;">Scumbag</span></span></td>
+                      <td><code>jb!scumbag</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>You lil' scumbag.</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header red lighten-1"><i class="twa twa-wrench"></i> Utility Commands</div>
+                <div class="collapsible-body">
+                    
+            <table class="highlight">
+              <p><strong>Please note that the default prefix is <code>jb!</code> therefore we have included this is the usage, please replace this prefix with your server's prefix if you have changed the bot's prefix.</strong></p>
+                  <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Usage</th>
+                        <th>Aliases</th>
+                        <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Spin</td>
+                      <td><code>jb!weather (location)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Gives you information on the weather in the selected location.</td>
+                    </tr>
+                    <tr>
+                      <td><span title="This command is only useable in NSFW channels."><i class="twa twa-bangbang"></i> <span style="text-decoration: underline;">Urban</span></span></td>
+                      <td><code>jb!urban (phrase/word)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Searches for a word on urban dictionary.</td>
+                    </tr>
+                    <tr>
+                      <td><span title="This command is only useable in NSFW channels."><i class="twa twa-bangbang"></i> <span style="text-decoration: underline;">Giphy</span></span></td>
+                      <td><code>jb!giphy (phrase)</code></td>
+                      <td><a class="dropdown-trigger btn red lighten-1" data-target="giphycmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                      <td>Gives you a random gif off giphy based off of the phrase you search with.</td>
+                    </tr>
+                    <tr>
+                      <td>Search</td>
+                      <td><code>jb!search (phrase)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Provides you with a search link for multiple search engines & streaming platforms.</td>
+                    </tr>
+                    <tr>
+                      <td>8ball</td>
+                      <td><code>jb!8ball (question)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Gives you a random response to a question asked.</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header red lighten-1"><i class="twa twa-balance-scale"></i> Legal Commands</div>
+                <div class="collapsible-body">
+                    
+            <table class="highlight">
+              <p><strong>Please note that the default prefix is <code>jb!</code> therefore we have included this is the usage, please replace this prefix with your server's prefix if you have changed the bot's prefix.</strong></p>
+                  <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Usage</th>
+                        <th>Aliases</th>
+                        <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Terms of Service</td>
+                      <td><code>jb!terms</code></td>
+                      <td><a class="dropdown-trigger btn red lighten-1" data-target="termscmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                      <td>Provides you with the terms of service.</td>
+                    </tr>
+                    <tr>
+                      <td>Privacy Policy</td>
+                      <td><code>jb!privacy</code></td>
+                      <td><a class="dropdown-trigger btn red lighten-1" data-target="privacycmdaliases">Alias List<i class="material-icons right">arrow_drop_down</i></a></td>
+                      <td>Provides you with the privacy policy.</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header red lighten-1"><i class="twa twa-cd"></i> ATE Commands</div>
+                <div class="collapsible-body">
+                    
+            <table class="highlight">
+              <p><strong>Please note that the default prefix is <code>jb!</code> therefore we have included this is the usage, please replace this prefix with your server's prefix if you have changed the bot's prefix, additionally please also note ATE commands are only for Bot Owners/Bot Admins.</strong></p>
+                  <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Usage</th>
+                        <th>Aliases</th>
+                        <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span title="This command is restricted to Bot Owners and Bot Admins."><i class="twa twa-lock"></i> <span style="text-decoration: underline;">Eval</span></span></td>
+                      <td><code>jb!eval (script)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Evaluates javascript code.</td>
+                    </tr>
+                    <tr>
+                      <td><span title="This command is restricted to Bot Owners and Bot Admins."><i class="twa twa-lock"></i> <span style="text-decoration: underline;">Restart</span></span></td>
+                      <td><code>jb!restart (reason)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Restarts the bot's process.</td>
+                    </tr>
+                    <tr>
+                      <td><span title="This command is restricted to Bot Owners and Bot Admins."><i class="twa twa-lock"></i> <span style="text-decoration: underline;">Stop</span></span></td>
+                      <td><code>jb!stop (reason)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Stops/halts the bot's process.</td>
+                    </tr>
+                    <tr>
+                      <td><span title="This command is restricted to Bot Owners and Bot Admins."><i class="twa twa-lock"></i> <span style="text-decoration: underline;">Request</span></span></td>
+                      <td><code>jb!request (confirmation)</code></td>
+                      <td><a class="btn disabled">Not Available</a></td>
+                      <td>Allows you to make an http request to update server count on bot lists.</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </li>
+      </ul>
+        </div>
+      </main>
+        <footer class="page-footer red lighten-1">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Bot Information</h5>
+                  <p class="grey-text text-lighten-4"><img src="https://discordbots.org/api/widget/437439973751521280.svg?usernamecolor=ffffff&topcolor=7289DA" alt="Connecting.." /></p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">User Preferences</h5>
+                  <ul>
+                    <li><div class="switch red lighten-1">
+                          <label>
+                            <i class="material-icons">brightness_2</i>
+                            <input id="theme" type="checkbox">
+                            <span class="lever"></span>
+                            <i class="material-icons">brightness_high</i>
+                          </label>
+                        </div>
+                        <br />
+                        <br />
+                  <h5 class="white-text">Invite JackBot</h5>
+                  <a id="jbinvite2" class="white waves-effect waves-red btn-small">Here</a>
+                      </div></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+                © 2018 Cairo Development (Cairo Mitchell-Acason).
+              <a class="grey-text text-lighten-4 right" href="https://github.com/jacksucksatbot"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAwIDQzOC41NDkgNDM4LjU0OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDM4LjU0OSA0MzguNTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQwOS4xMzIsMTE0LjU3M2MtMTkuNjA4LTMzLjU5Ni00Ni4yMDUtNjAuMTk0LTc5Ljc5OC03OS44QzI5NS43MzYsMTUuMTY2LDI1OS4wNTcsNS4zNjUsMjE5LjI3MSw1LjM2NSAgIGMtMzkuNzgxLDAtNzYuNDcyLDkuODA0LTExMC4wNjMsMjkuNDA4Yy0zMy41OTYsMTkuNjA1LTYwLjE5Miw0Ni4yMDQtNzkuOCw3OS44QzkuODAzLDE0OC4xNjgsMCwxODQuODU0LDAsMjI0LjYzICAgYzAsNDcuNzgsMTMuOTQsOTAuNzQ1LDQxLjgyNywxMjguOTA2YzI3Ljg4NCwzOC4xNjQsNjMuOTA2LDY0LjU3MiwxMDguMDYzLDc5LjIyN2M1LjE0LDAuOTU0LDguOTQ1LDAuMjgzLDExLjQxOS0xLjk5NiAgIGMyLjQ3NS0yLjI4MiwzLjcxMS01LjE0LDMuNzExLTguNTYyYzAtMC41NzEtMC4wNDktNS43MDgtMC4xNDQtMTUuNDE3Yy0wLjA5OC05LjcwOS0wLjE0NC0xOC4xNzktMC4xNDQtMjUuNDA2bC02LjU2NywxLjEzNiAgIGMtNC4xODcsMC43NjctOS40NjksMS4wOTItMTUuODQ2LDFjLTYuMzc0LTAuMDg5LTEyLjk5MS0wLjc1Ny0xOS44NDItMS45OTljLTYuODU0LTEuMjMxLTEzLjIyOS00LjA4Ni0xOS4xMy04LjU1OSAgIGMtNS44OTgtNC40NzMtMTAuMDg1LTEwLjMyOC0xMi41Ni0xNy41NTZsLTIuODU1LTYuNTdjLTEuOTAzLTQuMzc0LTQuODk5LTkuMjMzLTguOTkyLTE0LjU1OSAgIGMtNC4wOTMtNS4zMzEtOC4yMzItOC45NDUtMTIuNDE5LTEwLjg0OGwtMS45OTktMS40MzFjLTEuMzMyLTAuOTUxLTIuNTY4LTIuMDk4LTMuNzExLTMuNDI5Yy0xLjE0Mi0xLjMzMS0xLjk5Ny0yLjY2My0yLjU2OC0zLjk5NyAgIGMtMC41NzItMS4zMzUtMC4wOTgtMi40MywxLjQyNy0zLjI4OWMxLjUyNS0wLjg1OSw0LjI4MS0xLjI3Niw4LjI4LTEuMjc2bDUuNzA4LDAuODUzYzMuODA3LDAuNzYzLDguNTE2LDMuMDQyLDE0LjEzMyw2Ljg1MSAgIGM1LjYxNCwzLjgwNiwxMC4yMjksOC43NTQsMTMuODQ2LDE0Ljg0MmM0LjM4LDcuODA2LDkuNjU3LDEzLjc1NCwxNS44NDYsMTcuODQ3YzYuMTg0LDQuMDkzLDEyLjQxOSw2LjEzNiwxOC42OTksNi4xMzYgICBjNi4yOCwwLDExLjcwNC0wLjQ3NiwxNi4yNzQtMS40MjNjNC41NjUtMC45NTIsOC44NDgtMi4zODMsMTIuODQ3LTQuMjg1YzEuNzEzLTEyLjc1OCw2LjM3Ny0yMi41NTksMTMuOTg4LTI5LjQxICAgYy0xMC44NDgtMS4xNC0yMC42MDEtMi44NTctMjkuMjY0LTUuMTRjLTguNjU4LTIuMjg2LTE3LjYwNS01Ljk5Ni0yNi44MzUtMTEuMTRjLTkuMjM1LTUuMTM3LTE2Ljg5Ni0xMS41MTYtMjIuOTg1LTE5LjEyNiAgIGMtNi4wOS03LjYxNC0xMS4wODgtMTcuNjEtMTQuOTg3LTI5Ljk3OWMtMy45MDEtMTIuMzc0LTUuODUyLTI2LjY0OC01Ljg1Mi00Mi44MjZjMC0yMy4wMzUsNy41Mi00Mi42MzcsMjIuNTU3LTU4LjgxNyAgIGMtNy4wNDQtMTcuMzE4LTYuMzc5LTM2LjczMiwxLjk5Ny01OC4yNGM1LjUyLTEuNzE1LDEzLjcwNi0wLjQyOCwyNC41NTQsMy44NTNjMTAuODUsNC4yODMsMTguNzk0LDcuOTUyLDIzLjg0LDEwLjk5NCAgIGM1LjA0NiwzLjA0MSw5LjA4OSw1LjYxOCwxMi4xMzUsNy43MDhjMTcuNzA1LTQuOTQ3LDM1Ljk3Ni03LjQyMSw1NC44MTgtNy40MjFzMzcuMTE3LDIuNDc0LDU0LjgyMyw3LjQyMWwxMC44NDktNi44NDkgICBjNy40MTktNC41NywxNi4xOC04Ljc1OCwyNi4yNjItMTIuNTY1YzEwLjA4OC0zLjgwNSwxNy44MDItNC44NTMsMjMuMTM0LTMuMTM4YzguNTYyLDIxLjUwOSw5LjMyNSw0MC45MjIsMi4yNzksNTguMjQgICBjMTUuMDM2LDE2LjE4LDIyLjU1OSwzNS43ODcsMjIuNTU5LDU4LjgxN2MwLDE2LjE3OC0xLjk1OCwzMC40OTctNS44NTMsNDIuOTY2Yy0zLjksMTIuNDcxLTguOTQxLDIyLjQ1Ny0xNS4xMjUsMjkuOTc5ICAgYy02LjE5MSw3LjUyMS0xMy45MDEsMTMuODUtMjMuMTMxLDE4Ljk4NmMtOS4yMzIsNS4xNC0xOC4xODIsOC44NS0yNi44NCwxMS4xMzZjLTguNjYyLDIuMjg2LTE4LjQxNSw0LjAwNC0yOS4yNjMsNS4xNDYgICBjOS44OTQsOC41NjIsMTQuODQyLDIyLjA3NywxNC44NDIsNDAuNTM5djYwLjIzN2MwLDMuNDIyLDEuMTksNi4yNzksMy41NzIsOC41NjJjMi4zNzksMi4yNzksNi4xMzYsMi45NSwxMS4yNzYsMS45OTUgICBjNDQuMTYzLTE0LjY1Myw4MC4xODUtNDEuMDYyLDEwOC4wNjgtNzkuMjI2YzI3Ljg4LTM4LjE2MSw0MS44MjUtODEuMTI2LDQxLjgyNS0xMjguOTA2ICAgQzQzOC41MzYsMTg0Ljg1MSw0MjguNzI4LDE0OC4xNjgsNDA5LjEzMiwxMTQuNTczeiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /> </a>
+              </div>
+            </div>
+          </footer>
+          <!-- Dropdowns -->
+          <ul id="infocmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!botinfo</a></li>
+              <li><a style="color: #ef5350;">jb!uptime</a></li>
+          </ul>
+          <ul id="linkscmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!support</a></li>
+              <li><a style="color: #ef5350;">jb!website</a></li>
+              <li><a style="color: #ef5350;">jb!invite</a></li>
+          </ul>
+          <ul id="updatelogscmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!updatelog</a></li>
+          </ul>
+          <ul id="bugscmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!bug</a></li>
+          </ul>
+          <ul id="partnerscmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!partner</a></li>
+          </ul>
+          <ul id="giphycmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!gif</a></li>
+          </ul>
+          <ul id="termscmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!tos</a></li>
+              <li><a style="color: #ef5350;">jb!termsofservice</a></li>
+          </ul>
+          <ul id="privacycmdaliases" class="dropdown-content">
+              <li><a style="color: #ef5350;">jb!privacypolicy</a></li>
+          </ul>
+          <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+          <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+          <script type="text/javascript" src="assets/js/discord-widget.js"></script>
+          <script type="text/javascript" src="assets/js/invite-popup.js"></script>
+          <script type="text/javascript" src="assets/js/status-popup.js"></script>
+          <script type="text/javascript" src="assets/js/theme.js"></script>
+          <script type="text/javascript" src="assets/js/extra.js"></script>
+    </body>
+</html>

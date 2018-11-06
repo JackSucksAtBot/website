@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html itemtype="http://schema.org/Thing" lang="en-US">
+<html>
     <head> 
 
-        <title>JackBot - Home</title>
+        <title>JackBot - Updatelogs</title>
 
         <!-- Metadata -->
         <meta charset="utf-8" />
@@ -15,7 +15,7 @@
         <meta data-react-helmet="true" name="description" content="This is the official JackBot Website, JackBot is a Discord bot based off of JackSucksAtLife."/>
         <meta name="keywords" content="Discord, Cairo, JavaScript, Developer, Cairo2k18, 2k18, Discord.JS, Node.JS, Website, Official, DiscordApp, Bots for Discord, BFD, Discord Bots, DBL, Discord Bots List, Website, Project, Home, Cairo's, JackBot, JackSucksAtBot, JackSucksAtLife, JSAL, JackSucks, JackSucks@Life, SucksAtLife, Sucks@Life, Jack">
 
-        <meta itemprop="name" content="JackBot - Home">
+        <meta itemprop="name" content="JackBot - Commands">
         <meta itemprop="description" content="This is the official JackBot Website, JackBot is a Discord bot based off of JackSucksAtLife.">
         <meta itemprop="image" content="./assets/img/cairoprofile.png"> 
 
@@ -23,7 +23,7 @@
 
         <meta name="twitter:card" content="website">
         <meta name="twitter:site" content="JackBot Official">
-        <meta name="twitter:title" content="Homepage">
+        <meta name="twitter:title" content="Commands">
         <meta name="twitter:description" content="This is the official JackBot Website, JackBot is a Discord bot based off of JackSucksAtLife.">
         <meta name="twitter:creator" content="@CairoNZ">
         <meta name="twitter:image" content="./assets/img/jackbotlogo.png">
@@ -36,7 +36,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cairo2k18.xyz/jackbot" />
         <meta property="og:image" content="https://discordapp.com//assets/be51c36330395e516da99777086142f1.png">
-        <meta property="og:site_name" content="Homepage" />
+        <meta property="og:site_name" content="Commands" />
         <meta data-react-helmet="true" property="og:title" content="JackBot Official">
         <meta data-react-helmet="true" property="og:image" content="./assets/img/cairoprofile.png"/>
         <meta property="og:keywords" content="Discord,Cairo,JavaScript,Developer,Cairo2k18,2k18,Discord.JS,Node.JS,Website,Official,DiscordApp,Bots for Discord,BFD,Discord Bots,DBL,Discord Bots List,Website,Project,Home,Cairo's,JackBot,JackSucksAtBot,JackSucksAtLife,JSAL,JackSucks,JackSucks@Life,SucksAtLife,Sucks@Life,Jack" />
@@ -84,10 +84,10 @@
             <div class="nav-wrapper red lighten-1">
                     <a href="https://cairo2k18.xyz/jackbot" class="brand-logo center">JackBot</a>
                     <ul id="nav-mobile" class="left hide-on-med-and-dow">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a id="jbstatus">Status</a></li>
                     <li><a href="commands.html">Commands</a></li>
-                    <li><a href="updatelogs.html">Updatelogs</a></li></ul>
+                    <li class="active"><a href="updatelogs.html">Updatelogs</a></li></ul>
                     <ul id="nav-mobile" class="right hide-on-med-and-dow">
                     <li><a id="jbinvite" title="Invite JackBot to your guild."><i class="material-icons">add_circle</i></a></li>
                     <li><a onclick="M.toast({html: 'Webpanel Coming Soon.'})"><i class="material-icons">settings</i></a></li>
@@ -95,20 +95,60 @@
                 </div>
         </nav>
         <div class="container">
-            <h2><i class="twa twa-wave"></i> Welcome to JackBot's Website!</h2>
+            <h5><i class="twa twa-information-source"></i> Information</h5>
+            <h6>Each version is sorted with different coloured hearts based off of the majority/minority of the update.
+                <br />
+                <br />
+                <i class="twa twa-heart"></i> - Major Update
+                <br /> 
+                <i class="twa twa-yellow-heart"></i> - Medium Update 
+                <br /> 
+                <i class="twa twa-green-heart"></i> - Minor Update
+                <br />
+        </h6>
             <br />
-            <h4><i class="twa twa-question"></i> About JackBot</h4>
-            <p>JackBot is a Discord Bot about the YouTuber JackSucksAtLife, It contains memes, quotes and just general utility commands. JackBot was created on the <strong>22nd of April 2018</strong> by <strong>Cairo#4883</strong>.</p>
             <br />
-            <h4><i class="twa twa-thinking-face"></i> Why JackBot</h4>
-            <p>JackBot is a unique bot and is the only public Discord bot based off of the YouTuber JackSucksAtLife that gets decent exposure and is used the most, JackBot isn't just a memey bot, JackBot allows you to also find out the weather in your city, search up something on the internet with your choice of where you want to search whether it be Google, Netflix or YouTube. JackBot is just overall a decent bot to have in your server that can help you with basic things, it's simplistic and not complicated unlike all the other Discord Bots.</p>
-            <br />
-            <h4><i class="twa twa-heart"></i> Support JackBot</h4>
-            <p>If you would like to support the Developers of JackBot please donate <a target="_blank" href="https://donatebot.io/checkout/437423842244165633">here</a>, donations are much appreciated and will be put back into making sure JackBot the easy to use, simplistic bot you use.</p>
-            <br />
-            <br />
+  <ul class="collapsible popout">
+    <li>
+      <div class="collapsible-header red lighten-1"><i class="twa twa-green-heart"></i> Version 3.1.3</div>
+      <div class="collapsible-body">
+    <p>
+      <div class="updatelogbox">
+        <span style="color: green;">+ Added dirtyjack command</span>
+        <br />
+        <span style="color: green;">+ Added 8ball command</span>
+        <br />
+        <span style="color: green;">+ Added request command</span>
+        <br />
+        <span style="color: green;">+ Added posting server count to blockbot.org api</span>
+        <br />
+        <span style="color: green;">+ Added blacklisting system</span>
+        <br />
+        <span style="color: orange;">* Fixed bug https://trello.com/c/C8FBr22X</span>
+        <br />
+        <span style="color: orange;">* Fixed issue https://github.com/JackSucksAtBot/bot/issues/1</span>
+        <br />
+        <span style="color: orange;">* Fixed issue where gif command returned nsfw results</span>
+        <br />
+        <span style="color: red;">- Removed manslaughter command</span>
+        <br />
+        <span style="color: red;">- Removed old server count posting system with multiple libraries</span>
+      </div>
+    </p>
+        
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header red lighten-1"><i class="twa twa-black-heart"></i> Archived Updatelogs</div>
+      <div class="collapsible-body">
+    <p><strong>To visit the old archived list of update logs (via the old website) please click <a href="old/updatelogs/index.html">here</a>.</strong></p>
+        
+      </div>
+    </li>
+      </ul>
         </div>
-        </main>
+      </main>
+
         <footer class="page-footer red lighten-1">
             <div class="container">
               <div class="row">
@@ -143,12 +183,12 @@
               </div>
             </div>
           </footer>
-        <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="assets/js/discord-widget.js"></script>
-        <script type="text/javascript" src="assets/js/invite-popup.js"></script>
-        <script type="text/javascript" src="assets/js/status-popup.js"></script>
-        <script type="text/javascript" src="assets/js/theme.js"></script>
-        <script type="text/javascript" src="assets/js/extra.js"></script>
+          <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+          <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+          <script type="text/javascript" src="assets/js/discord-widget.js"></script>
+          <script type="text/javascript" src="assets/js/invite-popup.js"></script>
+          <script type="text/javascript" src="assets/js/status-popup.js"></script>
+          <script type="text/javascript" src="assets/js/theme.js"></script>
+          <script type="text/javascript" src="assets/js/extra.js"></script>
     </body>
 </html>
